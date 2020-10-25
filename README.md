@@ -25,7 +25,7 @@ This console application was built on Windows 10 using .net core 3.1. It should 
    - [Download for windows x64](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.403-windows-x64-installer), [macOS](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.403-macos-x64-installer), [Linux](https://docs.microsoft.com/dotnet/core/install/linux-package-managers)
    - After downloaded and installed it, please open teminal and try this command as below to check if it is installed on your local
     ```
-    dotnet --version
+    $ dotnet --version
     ```
 
 - Visual Studio Community 2019
@@ -34,27 +34,27 @@ This console application was built on Windows 10 using .net core 3.1. It should 
 - Toy Robot Challenge global tools (optional)
   -  Running this commad as below on CLI, after that, you installed global tools for toy robot on local (must install Dotnet Core SDK before running it)
     ```
-    dotnet tool install --global toyrobot --version 1.0.2
+    $ dotnet tool install --global toyrobot --version 1.0.2
     ```
 
 ## Usage
 - cd to the **ToyRobotChallenge** directory and run the console application with:
   
   ``` 
-  dotnet run 
+  $ dotnet run 
   ```
 
 - You can also run the unit test suite with:
 
   if you cd to the **ToyRobotChallenge.Tests** directory, then run,
   ``` 
-  dotnet test 
+  $ dotnet test 
   ``` 
   
   different system or CLI may use other syntax to find ToyRobotChallenge.Tests directory
   
   ``` 
-  dotnet test ../ToyRobotChallenge.Tests 
+  $ dotnet test ../ToyRobotChallenge.Tests 
   ``` 
 
 ## Architecture Details && Thoughts
@@ -71,9 +71,9 @@ Also, we using the whole **Command** pattern invites a Factory pattern for comma
 Please follow how to install global tool for toy robot challenge as above, using .NET CORE Global tools as a SDK, it can quickly running this console application , even if you neither pull the source code nor install your IDE, the command as below,
 
 ``` 
-toyrobot -help 
-toyrobot -interative
-toyrobot [Test file path]
+$ toyrobot -help
+$ toyrobot -interative
+$ toyrobot [Test file path]
 ```
 
 ## More docs 
