@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ToyRobotChallenge": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Rex\\Software\\Sources\\VendorPanel\\toy-robot-challenge\\ToyRobotChallenge\\TestData\\example.txt D:\\Rex\\Software\\Sources\\VendorPanel\\toy-robot-challenge\\ToyRobotChallenge\\TestData\\example.txt -help"
+    }
+  }
+}
