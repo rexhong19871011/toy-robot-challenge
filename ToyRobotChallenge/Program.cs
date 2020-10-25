@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using ToyRobotChallenge.Core.Robot;
 using ToyRobotChallenge.Core.Simulator;
 using ToyRobotChallenge.Core.Table;
