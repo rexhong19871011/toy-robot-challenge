@@ -74,23 +74,24 @@ namespace ToyRobotChallenge
             Console.ForegroundColor = ConsoleColor.DarkYellow;
 
             Console.WriteLine("------------------------------Three ways to run toy robot challenge console---------------------------------------------");
+            Console.WriteLine("");
             Console.Write("1. ToyRobotChallenge.exe");
             Console.ResetColor();
             Console.Write(" [-help] [-interactive] <input file 1> <input file 2> ... <input file n>\n");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("");
-            Console.WriteLine("running .net core cmd,  you must install .NET CORE SDK before you run command as below,");
             Console.Write("2. dotnet run");
             Console.ResetColor();
             Console.Write(" [-help] [-interactive] <input file 1> <input file 2> ... <input file n>\n");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("(running .net core cmd,  you must install .NET CORE SDK 3.1 before you run command  as above)");
             Console.WriteLine("");
-            Console.WriteLine("running .net core for global tools, you must install .NET CORE SDK and install dotnet global tools (- ToyRobotChallenge) before you run command as below,");
-            Console.Write("3. ToyRobotChallenge");
+            Console.Write("3. ToyRobot");
             Console.ResetColor();
             Console.Write(" [-help] [-interactive] <input file 1> <input file 2> ... <input file n>\n");
-            Console.WriteLine("");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("(running .net core for global tools, you must install .NET CORE SDK and install .NET CORE global tools (https://www.nuget.org/packages/ToyRobotChallenge) before you run command as above)");
+            Console.WriteLine("");
             Console.WriteLine("----------------------------------------------------------------------------------------------------");
             Console.ResetColor();
 

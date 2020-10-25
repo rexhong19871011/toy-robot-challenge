@@ -34,7 +34,7 @@ This console application was built on Windows 10 using .net core 3.1. It should 
 - Toy Robot Challenge global tools (optional)
   -  Running this commad as below on CLI, after that, you installed global tools for toy robot on local (must install Dotnet Core SDK before running it)
     ```
-    dotnet tool install --global toyrobot --version 1.0.2
+    dotnet tool install --global toyrobot --version 1.0.0
     ```
 
 ## Usage
